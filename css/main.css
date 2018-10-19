@@ -1,0 +1,63 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+body {
+	height: 100%;
+	overflow: scroll;
+}
+#container {
+	margin: 0 auto;
+	margin-top: 150px;
+	width: 80%;
+	height: 60%;
+	background-color: lightgreen;
+	position: relative;
+}
+#canvas_wrap {
+	float: left;
+	display: inline-block;
+}
+#list_wrap {
+	width: 190px;
+	height: inherit;
+	display: inline-block;
+}
+#canv {
+	background-color: red;
+}
+
+#tests {
+	width: 200px;
+	height: 200px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+#testImg {
+	opacity: 1;
+	position: absolute;
+}
+#getFile {
+	display: none;
+}
+#btn {
+	width: 100%;
+}
+#list {
+	list-style: none;
+}
+#list .list--item {
+	width: 100%;
+	border: 1px black solid;
+	background-color: #fff;
+	color: blue;
+	line-height: 1.2;
+	text-align: center;
+	margin: 2px 0;
+	cursor: pointer;
+}
